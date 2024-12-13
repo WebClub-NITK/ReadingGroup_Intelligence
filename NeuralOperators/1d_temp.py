@@ -3,26 +3,24 @@ import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 
 # Parameters
-dx = 0.1  # Spatial step
-dt = 0.005  # Time step
-alpha = 0.01  # Thermal diffusivity
-L = 1.0  # Length of the domain
-x = np.arange(0, L + dx, dx)  # Spatial grid
-nx = len(x)  # Number of grid points
-nt = 100  # Number of time steps
+dx = 0.1 
+dt = 0.005  
+alpha = 0.01
+L = 1.0 
+x = np.arange(0, L + dx, dx)  
+nx = len(x) 
+nt = 100  
 
-# Stability condition
 assert dt <= dx**2 / (2 * alpha), "Stability condition not satisfied!"
 
-# Initial and boundary conditions
-u = np.sin(np.pi * x)  # Initial condition
-time_steps = [u.copy()]  # Store solutions at each time step
 
-# Boundary conditions
+u = np.sin(np.pi * x) 
+time_steps = [u.copy()] 
+
 u[0] = 0
 u[-1] = 0
 
-# Time stepping
+
 for n in range(nt):
     u_new = u.copy()
     for i in range(1, nx - 1):
@@ -30,7 +28,7 @@ for n in range(nt):
     u = u_new
     time_steps.append(u.copy())
 
-# Animation
+
 fig, ax = plt.subplots(figsize=(8, 5))
 line, = ax.plot(x, time_steps[0], label="Temperature")
 ax.set_xlim(0, L)
