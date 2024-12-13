@@ -14,3 +14,31 @@ Crash Course on Neural Operators : https://www.youtube.com/watch?v=KIGG-IA9awU&p
 Slides for Neural Operators : https://icml.cc/media/icml-2024/Slides/35235.pdf 
 
 Helper slides : https://docs.google.com/presentation/d/1RPJqBETcEC9GbXMYSIDKdI8u_huPjaNDXmoZuLiUcco/edit?usp=sharing 
+
+
+Multipole Graph Neural Operator for Parametric Partial Differential Equations
+https://arxiv.org/abs/2006.09535
+
+Fourier Neural Operator for Parametric Partial Differential Equations
+https://arxiv.org/abs/2010.08895
+
+Markov Neural Operators for Learning Chaotic Systems
+https://arxiv.org/abs/2106.06898
+
+Neural Operator: Learning Maps Between Function Spaces
+https://arxiv.org/pdf/2108.08481.pdf
+
+Physics-Informed Neural Operator for Learning Partial Differential Equations
+https://arxiv.org/pdf/2111.03794.pdf
+
+U-NO: U-shaped Neural Operators
+https://arxiv.org/pdf/2204.11127.pdf
+
+FourCastNet Paper : https://arxiv.org/pdf/2202.11214 
+
+Students/Profs/Groups working on Neural Operators : 
+https://cemse.kaust.edu.sa/profiles/xinliang-liu
+https://zongyi-li.github.io/ 
+https://sites.google.com/view/ameyadjagtap 
+http://tensorlab.cms.caltech.edu/users/anima/ 
+https://www.cs.purdue.edu/homes/kamyar/ 
