@@ -11,3 +11,6 @@ ICML 2024 talk on Neural Operators : https://www.youtube.com/watch?v=_j7bceE9AyA
 
 Crash Course on Neural Operators : https://www.youtube.com/watch?v=KIGG-IA9awU&pp=ygUQbmV1cmFsIG9wZXJhdG9ycw%3D%3D 
 
+Slides for Neural Operators : https://icml.cc/media/icml-2024/Slides/35235.pdf 
+
+Helper slides : https://docs.google.com/presentation/d/1RPJqBETcEC9GbXMYSIDKdI8u_huPjaNDXmoZuLiUcco/edit?usp=sharing 
